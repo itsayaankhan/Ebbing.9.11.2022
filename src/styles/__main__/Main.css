@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 87%;
+  height: 100%;
+  background-color: rgb(0, 255, 149); /* rgb(5, 42, 76); */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: 13%;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* .NewSliderMenu {
+  display: flex;
+  width: 12%;
+  height: 5%;
+  background-color: gray;
+}
+
+#NewSliderMenu__buttons {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+} */
+
+.NewSliderMenu {
+  display: none;
+  width: 15%;
+  height: 5%;
+  background-color: gray;
+}
+
+#NewSliderMenu__buttons {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+#NewSliderMenu__buttons span {
+  margin-left: 4%;
+}
